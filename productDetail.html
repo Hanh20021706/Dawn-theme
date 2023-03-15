@@ -330,7 +330,7 @@
                 <div class="card-next__media d-flex justify-center md-none">
                   <span onclick="">
                     <img
-                      class="card-next__img"
+                      class="card-next__img img-icon"
                       src="./assets/image/icon/chevron left.svg"
                       alt=""
                     />
@@ -338,7 +338,7 @@
                   <span class="cart-next__text text-13"> 1/10 </span>
                   <span>
                     <img
-                      class="card-next__img"
+                      class="card-next__img img-icon"
                       src="./assets/image/icon/chevron right.svg"
                       alt=""
                     />
@@ -385,7 +385,7 @@
                         <img
                           src="./assets/image/icon/minus.svg"
                           alt=""
-                          class="cart-icon__img"
+                          class="cart-icon__img img-icon"
                         />
                       </span>
                       <input type="text" value="1" class="input-cart__number" />
@@ -393,7 +393,7 @@
                         <img
                           src="./assets/image/icon/plus.svg"
                           alt=""
-                          class="cart-icon__img"
+                          class="cart-icon__img img-icon"
                         />
                       </span>
                     </div>
@@ -402,7 +402,7 @@
                     <button class="button heading-16 btn-add__cart">
                       Add to cart
                     </button>
-                    <button class="button heading-16 btn-by__now">
+                    <button class="button heading-16 button-color btn-by__now">
                       Buy it now
                     </button>
                   </div>
@@ -421,7 +421,7 @@
                           <img
                             src="./assets/image/icon/materials.svg"
                             alt=""
-                            class="desc-item__img"
+                            class="desc-item__img img-icon"
                           />
                           Materials
                         </span>
@@ -456,7 +456,7 @@
                           <img
                             src="./assets/image/icon/ruler.svg"
                             alt=""
-                            class="desc-item__img"
+                            class="desc-item__img img-icon"
                           />
                           Dimensions
                         </span>
@@ -491,7 +491,7 @@
                           <img
                             src="./assets/image/icon/heart.svg"
                             alt=""
-                            class="desc-item__img"
+                            class="desc-item__img img-icon"
                           />
                           Care Instructions
                         </span>
@@ -522,7 +522,7 @@
                       <img
                         src="./assets/image/icon/share.svg"
                         alt=""
-                        class="link-share__img"
+                        class="link-share__img img-icon"
                       />
                       Share
                     </a>
@@ -533,16 +533,9 @@
           </div>
         </section>
         <section class="section-product-new md-pd-40">
-          <div class="row section-new__row">
-            <div class="col" style="--w-md: 6">
-              <img
-                src="./assets/image/product/new1.jpg"
-                alt=""
-                class="card-new__img"
-              />
-            </div>
-            <div class="col" style="--w-md: 6">
-              <div class="card-product__new d-flex f-column gap-16">
+          <div class="row section-new__row d-flex f-column ">
+            <div class="product-new__item w-100 h-100" >
+              <div class="card-product__new h-100 d-flex f-column gap-16">
                 <h2 class="card-new__title heading-30">A new kind of bag.</h2>
                 <p class="card-new__text heading-16">
                   Unexpected shapes with smart details, functionality, a new
@@ -551,6 +544,14 @@
                 <a href="" class="card-link d-none md-block"> Read more </a>
               </div>
             </div>
+            <div class="product-new__item w-100" >
+              <img
+                src="./assets/image/product/new1.jpg "
+                alt=""
+                class="card-new__img h-100"
+              />
+            </div>
+           
           </div>
         </section>
         <section class="section-product__stenght pd-section">
@@ -731,7 +732,7 @@
                 <input
                   type="text"
                   placeholder="Email"
-                  class="footer-form__input w-100"
+                  class="footer-form__input input w-100"
                 />
                 <button class="btn-footer">
                   <img

@@ -15,6 +15,7 @@ clickMenun.addEventListener("click", function () {
 const btnVideo = document.querySelector('.btn-video__open');
 const wrapVideo = document.querySelector('.video-list');
 const closeVideo = document.querySelector('.video-item__close');
+const bodyVideo = document.querySelector("body")
 
 
 btnVideo.addEventListener('click', ()=> {
@@ -25,5 +26,4 @@ btnVideo.addEventListener('click', ()=> {
 
 closeVideo.addEventListener('click', ()=> {
     wrapVideo.classList.remove('show-video')
-    console.log(closeVideo, 'closeVideo');
 })

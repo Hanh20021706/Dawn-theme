@@ -41,9 +41,6 @@
 .gap-16{
     gap: 16px 0;
 }
-.gap-0{
-    --gap: 0;
-}
 .gap-10{
     gap: 10px 0;
 }
@@ -56,8 +53,10 @@
 .flex-1{
     flex: 1;
 }
-
 .pd-section{
+    padding: 40px 0;
+}
+.xs-pd-40{
     padding: 40px 0;
 }
 .mt-24{
