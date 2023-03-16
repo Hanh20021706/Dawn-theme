@@ -1,8 +1,7 @@
 .container {
-  max-width: 1097px;
+  max-width: 100%;
   margin: 0 auto;
-  padding-left: 12.5px;
-  padding-right: 12.5px;
+  padding-inline: 12.5px;
 }
 
 .row {
@@ -33,6 +32,9 @@
   }
 }
 @media (min-width: 992px) {
+  .container{
+    padding-inline: 64px;
+  }
   [style*="--w-lg"] {
     width: calc((100% / 12) * var(--w-lg));
     max-width: calc((100% / 12) * var(--w-lg));
