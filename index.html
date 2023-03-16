@@ -310,12 +310,15 @@
               </a>
             </li>
             <li class="header-sub__item">
-              <a href="./cart.html" class="sub-item__link">
+              <a href="./cart.html" class="sub-item__link box-cart__item">
                 <img
                   src="./assets/image/icon/cart empty.svg"
                   alt=""
                   class="sub-item__img"
                 />
+                <span class="d-flex justify-center align-center quantify-cart__product text-10 button-color">
+                  4
+                </span>
               </a>
             </li>
           </ul>
@@ -328,6 +331,7 @@
     <!-- main home page -->
     <main class="main-home">
       <section class="section-banner__wrap">
+      <div class="section-banner__opacity">
         <div class="container">
           <div class="baner-body d-flex f-column align-center">
             <h2 class="banner-title heading-40 text-center">
@@ -337,6 +341,7 @@
             <button class="banner-btn button button-text">Add to cart</button>
           </div>
         </div>
+      </div>
       </section>
       <section class="featured-colection__wrap pd-section">
         <div class="container">
@@ -514,12 +519,19 @@
               <a class="btn-link__video btn-video__open">
                 <img src="./assets/image/product/videohome.jpg" alt="" class="link-video__img">
               </a>
-              <div class="video-list">
-                <span class="video-item__close">
-                  &#10006
-                </span>
-                <video class="video-item" src="https://media.istockphoto.com/id/1139869862/vi/video/speed-ramp-hai-ng%C6%B0%E1%BB%9Di-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-c%C6%B0%E1%BB%A1i-v%E1%BB%81-ph%C3%ADa-m%E1%BA%B7t-tr%E1%BB%9Di-l%E1%BA%B7n.mp4?s=mp4-640x640-is&k=20&c=qQWB-pU9QaWAphG_W3bnWAs8iS_3cxNtBp83bSVTQlM="></video>
+              <div class="video-list d-flex justify-center align-center ">
+               
+                <div class="box-video__close d-flex justify-center align-center">
+                  <video class="video-item" controls src="./assets/image/video/skyscrapers-91744.mp4"></video>
+                  <span class="video-item__close">
+                    &#10006
+                  </span>
+                </div>
+                
               </div>
+          </div>
+          <div class="video-wrap__color">
+
           </div>
         </div>
       </section>
