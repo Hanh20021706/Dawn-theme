@@ -419,6 +419,9 @@ img {
   width: 202px;
   height: 40px;
 }
+.section-description__wrap{
+  padding-bottom: 40px;
+}
 
 /* end */
 
@@ -565,6 +568,9 @@ img {
   gap: 12px;
   text-decoration: none;
   color: var(--text-defaul);
+}
+.container-atricle__banner{
+  padding: 0;
 }
 .atricle-time {
   margin-top: 24px;
@@ -1056,7 +1062,7 @@ img {
     padding-top: 0;
   }
   .atricle-banner {
-    margin: 64px;
+    margin: 64px 0;
   }
   .atricle-title {
     font-size: 40px;
