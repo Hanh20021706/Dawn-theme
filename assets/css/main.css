@@ -50,17 +50,13 @@ img {
   width: 20px;
   height: 20px;
 }
-
-
 .border-dark-white{
   border: 1px solid var(--color-dark-white);
 }
-
 .input{
   outline: none;
   border: none;
 }
-
 /* btn */
 .button {
   border: none;
@@ -314,7 +310,6 @@ img {
   position: relative;
 }
 .card-media__item {
-  object-fit: cover;
   aspect-ratio: 1;
 }
 .card-media__text {
