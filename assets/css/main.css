@@ -217,7 +217,7 @@ img {
   position: fixed;
   left: 0;
   bottom: 0;
-  top: 75px;
+  top: 96px;
   background-color: var(--color-white);
   width: 100%;
   z-index: 1;
@@ -516,6 +516,7 @@ img {
 .look-book__item{
   margin-bottom: 10px;
 }
+
 .look-book__sub{
   gap: 10px;
 }
@@ -1006,6 +1007,9 @@ img {
     height: 570px;
     flex-direction: column;
     
+  }
+  .img-sub__item{
+    max-height: 280px;
   }
   /* about */
   .about-media__row {
