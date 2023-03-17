@@ -50,6 +50,11 @@ li {
   --text-defaul: #121212;
   --text-sub: #121212;
   --color-border: #d0d0d0;
+  --color-subdued-text:  rgba(18, 18, 18, 0.75);
+  --bg-color-rgba:  rgba(18, 18, 18, 0.4);
+  --color-subdued-text:  rgba(18, 18, 18, 0.75);
+  --bg-rgba-light:  rgba(18, 18, 18, 0.4);
+  --bg-rgba-dark : rgba(0, 0, 0, 0.5);
 }
 
 img {
@@ -310,7 +315,7 @@ img {
   background: url(../image/background/bg-home.jpg) top center / cover no-repeat;
 }
 .section-banner__opacity {
-  background: rgba(18, 18, 18, 0.4);
+  background: var(--bg-rgba-light);
   padding: 100px 0;
 }
 
@@ -659,6 +664,13 @@ img {
   margin-top: 64px;
   gap: 16px;
 }
+.form-contact input::placeholder{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-famlily-defaul);
+  line-height: 0.9;
+  letter-spacing: 0.04em;
+}
 .form-contact input,
 .form-text__Content {
   outline: none;
@@ -725,7 +737,7 @@ img {
   margin-bottom: 7px;
 }
 .cart-product__color {
-  color: rgba(18, 18, 18, 0.75);
+  color: var(--color-subdued-text);
 }
 .cart-table__quantity {
   gap: 12px;
@@ -970,7 +982,7 @@ img {
     padding: 152px 0;
   }
   .baner-body {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--bg-rgba-dark);
     max-width: 464px;
     margin: 0 auto;
     padding: 40px;
