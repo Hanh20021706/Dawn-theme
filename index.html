@@ -240,18 +240,18 @@
                 <nav class="nav-menu__sub d-none">
                   <ul class="nav-sub__list unistyled d-flex f-column">
                     <li class="nav-sub__item">
-                      <a href="./colection.html" class="nav-sub__link decoration-none"
+                      <a href="./colection.html" class="nav-sub__link d-block decoration-none"
                         >Shop all</a
                       >
                     </li>
                     <li class="nav-sub__item">
-                      <a href="./blog.html" class="nav-sub__link decoration-none">Blogs</a>
+                      <a href="./blog.html" class="nav-sub__link d-block decoration-none">Blogs</a>
                     </li>
                     <li class="nav-sub__item">
-                      <a href="" class="nav-sub__link decoration-none">Shoulder bags</a>
+                      <a href="" class="nav-sub__link d-block decoration-none">Shoulder bags</a>
                     </li>
                     <li class="nav-sub__item">
-                      <a href="" class="nav-sub__link decoration-none">Crossbody bags</a>
+                      <a href="" class="nav-sub__link d-block decoration-none">Crossbody bags</a>
                     </li>
                   </ul>
                 </nav>
@@ -267,16 +267,16 @@
                 <nav class="nav-menu__sub d-none">
                   <ul class="nav-sub__list unistyled d-flex f-column">
                     <li class="nav-sub__item">
-                      <a href="" class="nav-sub__link decoration-none">Shop all</a>
+                      <a href="" class="nav-sub__link d-block decoration-none">Shop all</a>
                     </li>
                     <li class="nav-sub__item">
-                      <a href="" class="nav-sub__link decoration-none">Tote bags</a>
+                      <a href="" class="nav-sub__link d-block decoration-none">Tote bags</a>
                     </li>
                     <li class="nav-sub__item">
-                      <a href="" class="nav-sub__link decoration-none">Shoulder bags</a>
+                      <a href="" class="nav-sub__link d-block decoration-none">Shoulder bags</a>
                     </li>
                     <li class="nav-sub__item">
-                      <a href="" class="nav-sub__link decoration-none">Crossbody bags</a>
+                      <a href="" class="nav-sub__link d-block decoration-none">Crossbody bags</a>
                     </li>
                   </ul>
                 </nav>
@@ -513,8 +513,11 @@
         <div class="container">
           <div class="video-wrap">
               <a class="btn-link__video btn-video__open">
-                <img src="./assets/image/product/videohome.jpg" alt="" class="link-video__img">
-              </a>
+                <img src="./assets/image/product/blog3.jpg" alt="" class="link-video__img ">
+                  <button class="button vidoe-btn d-flex justify-center align-center">
+                    <img src="./assets/image/icon/play.svg" alt="" class="video-btn__img img-icon">
+                  </button>
+              </a>  
               <div class="video-list d-flex justify-center align-center ">
                
                 <div class="box-video__close d-flex justify-center align-center">
@@ -575,8 +578,8 @@
         <div class="footer__top">
           <div class="row footer-top__row">
             <div class="col" style="--w-lg: 4">
+              <h3 class="nav-footer__title h-3">Quick links</h3>
               <ul class="nav-footer__list d-flex f-column unistyled">
-                <h3 class="nav-footer__title h-3">Quick links</h3>
                 <li class="nav-footer__item">
                   <a href="./colection.html" class="nav-footer__link decoration-none body-2">
                     Bags
@@ -591,8 +594,8 @@
               </ul>
             </div>
             <div class="col" style="--w-lg: 4">
+              <h3 class="nav-footer__title h-3">Info</h3>
               <ul class="nav-footer__list d-flex f-column unistyled">
-                <h3 class="nav-footer__title h-3">Info</h3>
                 <li class="nav-footer__item">
                   <a href="./about.html" class="nav-footer__link decoration-none body-2">
                     About
@@ -633,11 +636,11 @@
             <label for="" class="footer-form__title h-3 text-center">
               Subscribe to our emails
             </label>
-            <div class="footer-form__item d-flex">
+            <div class="footer-form__item border-dark d-flex">
               <input
                 type="text"
                 placeholder="Email"
-                class="footer-form__input input w-100"
+                class="footer-form__input input w-100 border-none"
               />
               <button class="btn-footer">
                 <img
@@ -724,17 +727,23 @@
               <label for="" class="slect-item__title caption-1">
                 Country/region
               </label>
-              <select class="select-item__form caption-1" name="" id="" >
-                <option class="" value="">  Canada (CAD $)</option>
-              </select>
+              <div class=" select-box border-dark d-flex justify-between align-center">
+                <select class=" border-none select-item__form  caption-1" name="" id="" >
+                  <option class="select-item__form" value="">  Canada (CAD $)</option>
+                </select>
+                <img src="./assets/image/icon/chevron down.svg" alt="" class="select-img img-icon">
+              </div>
             </div>
             <div class="footer-select__item d-flex f-column">
               <label for="" class="slect-item__title caption-1">
                 Language
               </label>
-              <select class="select-item__form caption-1" name="" id="" >
-                <option class="" value="">  English</option>
-              </select>
+              <div class=" select-box border-dark d-flex justify-between align-center">
+                <select class=" border-none select-item__form  caption-1" name="" id="" >
+                  <option class="select-item__form" value="">  English</option>
+                </select>
+                <img src="./assets/image/icon/chevron down.svg" alt="" class="select-img img-icon">
+              </div>
             </div>
           </div>
           <div class="footer-pay">
